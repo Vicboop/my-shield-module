@@ -1,5 +1,8 @@
 if SHIELD_KEYBOARDV3_LEFT
 
+config ZMK_KEYBOARD_NAME
+    default "Keyboardv3"
+
 config ZMK_SPLIT
     default y
 
@@ -11,9 +14,6 @@ endif
 if SHIELD_KEYBOARDV3_RIGHT
 
 config ZMK_SPLIT
-    default y
-
-config ZMK_SPLIT_ROLE_PERIPHERAL
     default y
 
 endif
