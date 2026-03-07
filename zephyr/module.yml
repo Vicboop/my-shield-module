@@ -1,4 +1,4 @@
-name: zmk-keyboard-PCBLander
+name: my-shield-module
 build:
   settings:
-    board_root: mkdir boards/shields/PCBLander
+    board_root: .
