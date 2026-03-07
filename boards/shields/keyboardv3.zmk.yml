@@ -1,12 +1,19 @@
 file_format: "1"
 id: keyboardv3
-name: Keyboardv3
-url: https://example.invalid/keyboardv3
-requires: [nice_nano_v2]
+name: Keyboard V3
+url: https://github.com/Vicboop/my-shield-module
+
+type: shield
+
+requires:
+  - nice_nano_v2
+
 features:
   - keys
   - studio
   - split
+  - bluetooth
+
 siblings:
   - keyboardv3_left
   - keyboardv3_right
