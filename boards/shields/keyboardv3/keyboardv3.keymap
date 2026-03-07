@@ -36,11 +36,11 @@
             bindings = <
                 // Row 0
                 &bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4 &trans &trans
-                &trans     &kp PSCRN    &kp SLCK     &kp PAUSE_BREAK &trans      &trans        &trans &trans
+                &trans     &kp PSCRN    &kp SLCK     &kp PAUSE_BREAK &trans      &trans      &trans &trans
 
                 // Row 1
-                &trans &kp INS  &kp HOME &kp UP   &kp END  &kp PG_UP &trans &trans
-                &trans &kp LEFT &kp DOWN &kp UP   &kp RGHT &kp PG_DN &trans &trans
+                &trans &kp INS  &kp HOME &kp UP   &kp END   &kp PG_UP &trans &trans
+                &trans &kp LEFT &kp DOWN &kp UP   &kp RIGHT &kp PG_DN &trans &trans
 
                 // Row 2
                 &trans &trans &trans &trans &trans &trans &trans &trans
