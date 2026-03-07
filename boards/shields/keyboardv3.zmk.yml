@@ -1,0 +1,12 @@
+file_format: "1"
+id: keyboardv3
+name: Keyboardv3
+url: https://example.invalid/keyboardv3
+requires: [nice_nano_v2]
+features:
+  - keys
+  - studio
+  - split
+siblings:
+  - keyboardv3_left
+  - keyboardv3_right

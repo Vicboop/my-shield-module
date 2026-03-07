@@ -1,0 +1,5 @@
+#include "keyboardv3.dtsi"
+
+&default_transform {
+    col-offset = <8>;
+};
