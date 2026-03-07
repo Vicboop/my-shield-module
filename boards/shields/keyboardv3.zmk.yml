@@ -2,7 +2,6 @@ file_format: "1"
 id: keyboardv3
 name: Keyboard V3
 url: https://github.com/Vicboop/my-shield-module
-
 type: shield
 
 requires:
