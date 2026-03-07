@@ -1,19 +1,8 @@
-if SHIELD_KEYBOARDV3_LEFT
+config SHIELD_KEYBOARDV3_LEFT
+    def_bool $(shields_list_contains,keyboardv3_left)
 
-config ZMK_SPLIT
-    default y
+config SHIELD_KEYBOARDV3_RIGHT
+    def_bool $(shields_list_contains,keyboardv3_right)
 
-config ZMK_SPLIT_ROLE_CENTRAL
-    default y
-
-endif
-
-if SHIELD_KEYBOARDV3_RIGHT
-
-config ZMK_SPLIT
-    default y
-
-config ZMK_SPLIT_ROLE_PERIPHERAL
-    default y
-
-endif
+config SHIELD_KEYBOARDV3
+    def_bool SHIELD_KEYBOARDV3_LEFT || SHIELD_KEYBOARDV3_RIGHT
