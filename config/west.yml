@@ -12,3 +12,6 @@ manifest:
       import: app/west.yml
   self:
     path: config
+- name: zmk-studio
+  path: modules/lib/zmk-studio
+  revision: main
